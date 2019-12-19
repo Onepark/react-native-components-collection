@@ -4,26 +4,31 @@
  * @flow
  */
 
-import React, { Component } from 'react';
-import { StyleSheet, View } from 'react-native';
-import Text from '@bam.tech/react-native-component-text';
-import GoogleSignIn from '@bam.tech/react-native-component-google-signin';
+import React, { Component } from "react";
+import { StyleSheet, View } from "react-native";
+import Text from "@onepark.fr/react-native-component-text";
+import GoogleSignIn from "@onepark.fr/react-native-component-google-signin";
 
-const IOS_CLIENT_ID = '603475410669-u1l97qhp1b5inu4v3md82no7cpb12mpb.apps.googleusercontent.com';
+const IOS_CLIENT_ID =
+  "603475410669-u1l97qhp1b5inu4v3md82no7cpb12mpb.apps.googleusercontent.com";
 
 export default class App extends Component<> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to our components collection!</Text>
+        <Text style={styles.welcome}>
+          Welcome to our components collection!
+        </Text>
         <GoogleSignIn
           googleSignInConfig={{
-            iosClientId: IOS_CLIENT_ID,
+            iosClientId: IOS_CLIENT_ID
           }}
           onAuthSuccess={({ givenName }) => {
             console.warn(`Welcome ${givenName}!`);
           }}
-          onAuthFailure={error => console.warn('Oups an error occured..', error)}
+          onAuthFailure={error =>
+            console.warn("Oups an error occured..", error)
+          }
         />
       </View>
     );
@@ -33,18 +38,18 @@ export default class App extends Component<> {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#F5FCFF"
   },
   welcome: {
     fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
+    textAlign: "center",
+    margin: 10
   },
   instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+    textAlign: "center",
+    color: "#333333",
+    marginBottom: 5
+  }
 });

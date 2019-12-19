@@ -1,5 +1,5 @@
 {
-  "name": "@bam.tech/react-native-component-verification-code-input",
+  "name": "@onepark.fr/react-native-component-verification-code-input",
   "version": "1.0.2",
   "main": "index.js",
   "private": false,
@@ -12,7 +12,7 @@
   },
   "author": {
     "name": "Antoine DOUBOVETZKY",
-    "email": "antoined@bam.tech",
+    "email": "antoined@onepark.fr",
     "url": "https://github.com/AntoineDoubovetzky"
   },
   "license": "MIT"

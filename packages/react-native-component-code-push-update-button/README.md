@@ -3,12 +3,13 @@
 ## Installation
 
 ```bash
-yarn add @bam.tech/react-native-component-code-push-update-button
+yarn add @onepark.fr/react-native-component-code-push-update-button
 ```
 
 ## Usage
 
 Props:
+
 - `appStoreName`: string
 - `style`: style of the container
 - `checkStyle`: style of the "Check update" phrase

@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { View, Text } from 'react-native';
-import DefaultProgressBar from '@bam.tech/react-native-component-progress-bar';
+import DefaultProgressBar from '@onepark.fr/react-native-component-progress-bar';
 import computeStrength from './lib/computeStrength';
 
 class PasswordStrengthIndicator extends PureComponent {

@@ -1,10 +1,13 @@
 {
   "presets": ["react-native"],
   "plugins": [
-    ["module-resolver", {
-      "alias": {
-        "@bam.tech/react-native-component-text": "../packages/react-native-component-text"
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@onepark.fr/react-native-component-text": "../packages/react-native-component-text"
+        }
       }
-    }]
+    ]
   ]
 }

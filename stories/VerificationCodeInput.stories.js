@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import { storiesOf } from '@storybook/react';
-import VerificationCodeInput from '@bam.tech/react-native-component-verification-code-input';
+import React, { Component } from "react";
+import { storiesOf } from "@storybook/react";
+import VerificationCodeInput from "@onepark.fr/react-native-component-verification-code-input";
 
 class WithStateHandling extends Component {
-  state = { code: '' };
+  state = { code: "" };
 
   onChangeText = code => this.setState({ code });
 
@@ -19,19 +19,21 @@ class WithStateHandling extends Component {
   }
 }
 
-storiesOf('VerificationCodeInput', module)
-  .add('default (numeric keyboard)', () => <WithStateHandling />)
-  .add('without numeric keyboard', () => <WithStateHandling keyboardType={null} />)
-  .add('with custom input style', () => (
+storiesOf("VerificationCodeInput", module)
+  .add("default (numeric keyboard)", () => <WithStateHandling />)
+  .add("without numeric keyboard", () => (
+    <WithStateHandling keyboardType={null} />
+  ))
+  .add("with custom input style", () => (
     <VerificationCodeInput
       value="123"
       length={6}
       inputStyle={{
-        borderColor: 'purple',
+        borderColor: "purple",
         width: 50,
         height: 50,
-        borderRadius: 25,
+        borderRadius: 25
       }}
-      textStyle={{ color: 'purple', fontSize: 14 }}
+      textStyle={{ color: "purple", fontSize: 14 }}
     />
   ));

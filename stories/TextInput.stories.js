@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import { View, Button, Text } from 'react-native';
-import { TextInput as PaperTextInput } from 'react-native-paper';
-import { storiesOf } from '@storybook/react';
-import TextInput from '@bam.tech/react-native-component-text-input';
+import React, { Component } from "react";
+import { View, Button, Text } from "react-native";
+import { TextInput as PaperTextInput } from "react-native-paper";
+import { storiesOf } from "@storybook/react";
+import TextInput from "@onepark.fr/react-native-component-text-input";
 
 class TextInputWithFocusButton extends Component {
   setRef = c => {
@@ -23,17 +23,23 @@ class TextInputWithFocusButton extends Component {
   }
 }
 
-storiesOf('TextInput', module)
-  .add('default', () => <TextInput />)
-  .add('with focus button', () => <TextInputWithFocusButton />)
-  .add('with custom TextInputComponent', () => (
-    <TextInput label="Name" placeholder="Toto" TextInputComponent={PaperTextInput} />
+storiesOf("TextInput", module)
+  .add("default", () => <TextInput />)
+  .add("with focus button", () => <TextInputWithFocusButton />)
+  .add("with custom TextInputComponent", () => (
+    <TextInput
+      label="Name"
+      placeholder="Toto"
+      TextInputComponent={PaperTextInput}
+    />
   ));
 
-storiesOf('TextInput/secureTextEntry', module)
-  .add('default', () => <TextInput secureTextEntry />)
-  .add('with style', () => <TextInput style={{ height: 200 }} secureTextEntry />)
-  .add('with custom TextInputComponent', () => (
+storiesOf("TextInput/secureTextEntry", module)
+  .add("default", () => <TextInput secureTextEntry />)
+  .add("with style", () => (
+    <TextInput style={{ height: 200 }} secureTextEntry />
+  ))
+  .add("with custom TextInputComponent", () => (
     <TextInput
       secureTextEntry
       label="Name"
@@ -41,7 +47,7 @@ storiesOf('TextInput/secureTextEntry', module)
       TextInputComponent={PaperTextInput}
     />
   ))
-  .add('with password visibility button', () => (
+  .add("with password visibility button", () => (
     <TextInput
       secureTextEntry
       renderSecureTextEntryVisibilityButtonContent={isHidden =>
@@ -49,7 +55,7 @@ storiesOf('TextInput/secureTextEntry', module)
       }
     />
   ))
-  .add('with password visibility button and style', () => (
+  .add("with password visibility button and style", () => (
     <TextInput
       style={{ height: 200 }}
       secureTextEntry
@@ -59,6 +65,6 @@ storiesOf('TextInput/secureTextEntry', module)
     />
   ));
 
-storiesOf('TextInput/email-address', module).add('default', () => (
+storiesOf("TextInput/email-address", module).add("default", () => (
   <TextInput keyboardType="email-address" />
 ));

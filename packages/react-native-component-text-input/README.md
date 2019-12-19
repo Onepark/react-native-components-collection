@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-yarn add @bam.tech/react-native-component-text-input
+yarn add @onepark.fr/react-native-component-text-input
 ```
 
 ## Usage

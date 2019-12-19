@@ -1,5 +1,5 @@
 {
-  "name": "@bam.tech/react-native-component-password-strength-indicator",
+  "name": "@onepark.fr/react-native-component-password-strength-indicator",
   "version": "1.0.0",
   "main": "index.js",
   "private": false,
@@ -20,6 +20,6 @@
     "zxcvbn": "^4.4.2"
   },
   "peerDependencies": {
-    "@bam.tech/react-native-component-progress-bar": "*"
+    "@onepark.fr/react-native-component-progress-bar": "*"
   }
 }
