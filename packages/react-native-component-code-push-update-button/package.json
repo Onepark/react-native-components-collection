@@ -1,6 +1,6 @@
 {
   "name": "@onepark/react-native-component-code-push-update-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "private": false,
   "scope": "test",
