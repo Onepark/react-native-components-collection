@@ -1,5 +1,5 @@
 {
-  "name": "@bam.tech/react-native-component-map-clustering",
+  "name": "@onepark/react-native-component-map-clustering",
   "version": "1.1.1",
   "main": "index.js",
   "private": false,
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:bamlab/react-native-components-collection.git"
+    "url": "git@github.com:Onepark/react-native-components-collection.git"
   },
   "author": {
     "name": "Alban Depretz",
@@ -22,5 +22,6 @@
   },
   "peerDependencies": {
     "react-native-maps": "^0.21.0"
-  }
+  },
+  "gitHead": "79de196241210b64116360a2c38ca646c11029c0"
 }

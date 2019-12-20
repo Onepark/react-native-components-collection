@@ -2,7 +2,7 @@
 
 ## Installation
 ```bash
-yarn add @bam.tech/react-native-component-google-signin
+yarn add @onepark/react-native-component-google-signin
 ```
 
 

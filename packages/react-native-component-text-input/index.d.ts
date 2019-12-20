@@ -1,4 +1,4 @@
-declare module "@bam.tech/react-native-component-text-input" {
+declare module "@onepark/react-native-component-text-input" {
   import { Component } from "react";
   import {
     TextInputProps as RNTextInputProps,

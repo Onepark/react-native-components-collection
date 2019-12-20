@@ -6,8 +6,8 @@
 
 import React, { Component } from 'react';
 import { StyleSheet, View } from 'react-native';
-import Text from '@bam.tech/react-native-component-text';
-import GoogleSignIn from '@bam.tech/react-native-component-google-signin';
+import Text from '@onepark/react-native-component-text';
+import GoogleSignIn from '@onepark/react-native-component-google-signin';
 
 const IOS_CLIENT_ID = '603475410669-u1l97qhp1b5inu4v3md82no7cpb12mpb.apps.googleusercontent.com';
 

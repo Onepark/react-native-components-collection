@@ -1,24 +1,24 @@
 # Components
 
-[Demo](https://bamlab.github.io/react-native-components-collection/)
+[Demo](https://github.com/Onepark/react-native-components-collection)
 
-* [CodePushUpdateButton](./packages/react-native-component-code-push-update-button)
-* [CircleImage](./packages/react-native-component-circle-image)
-* [Google Sign-In Button](./packages/react-native-component-google-signin)
-* [Map with clustering](./packages/react-native-component-map-clustering)
-* [PasswordStrengthIndicator](./packages/react-native-component-password-strength-indicator)
-* [ProgressBar](./packages/react-native-component-progress-bar)
-* [Text](./packages/react-native-component-text)
-* [TextInput](./packages/react-native-component-text-input)
-* [Separator](./packages/react-native-component-separator)
-* [VerificationCodeInput](./packages/react-native-component-verification-code-input)
+- [CodePushUpdateButton](./packages/react-native-component-code-push-update-button)
+- [CircleImage](./packages/react-native-component-circle-image)
+- [Google Sign-In Button](./packages/react-native-component-google-signin)
+- [Map with clustering](./packages/react-native-component-map-clustering)
+- [PasswordStrengthIndicator](./packages/react-native-component-password-strength-indicator)
+- [ProgressBar](./packages/react-native-component-progress-bar)
+- [Text](./packages/react-native-component-text)
+- [TextInput](./packages/react-native-component-text-input)
+- [Separator](./packages/react-native-component-separator)
+- [VerificationCodeInput](./packages/react-native-component-verification-code-input)
 
 # Contributing
 
 ## Installation
 
 ```bash
-git clone git@github.com:bamlab/react-native-components-collection.git
+git clone git@github.com:Onepark/react-native-components-collection.git
 yarn
 ```
 
