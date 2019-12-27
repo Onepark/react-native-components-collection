@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-yarn add @bam.tech/react-native-component-code-push-update-button
+yarn add @onepark/react-native-component-code-push-update-button
 ```
 
 ## Usage

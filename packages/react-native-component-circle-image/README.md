@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-yarn add @bam.tech/react-native-component-circle-image
+yarn add @onepark/react-native-component-circle-image
 ```
 
 ## Usage

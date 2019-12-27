@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-yarn add @bam.tech/react-native-component-verification-code-input
+yarn add @onepark/react-native-component-verification-code-input
 ```
 
 ## Usage

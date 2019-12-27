@@ -1,6 +1,6 @@
 {
-  "name": "@bam.tech/react-native-component-text-input",
-  "version": "1.0.4",
+  "name": "@onepark/react-native-component-text-input",
+  "version": "1.0.5",
   "main": "index.js",
   "types": "index.d.ts",
   "private": false,
@@ -9,12 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:bamlab/react-native-components-collection.git"
+    "url": "git@github.com:Onepark/react-native-components-collection.git"
   },
   "author": {
-    "name": "Louis Lagrange",
-    "email": "lagrange.louis@gmail.com",
-    "url": "https://github.com/Minishlink"
+    "name": "onepark",
+    "email": "tech@onepark.fr",
+    "url": "https://github.com/Onepark/oneparkweb"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "79de196241210b64116360a2c38ca646c11029c0"
 }

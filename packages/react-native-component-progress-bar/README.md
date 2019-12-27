@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-yarn add @bam.tech/react-native-component-progress-bar
+yarn add @onepark/react-native-component-progress-bar
 ```
 
 ## Usage
